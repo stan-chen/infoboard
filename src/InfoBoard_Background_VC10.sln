@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InfoBoard_MainSrc", "InfoBoard_MainSrc\InfoBoard_MainSrc.vcxproj", "{D7C2BA0A-CB79-87F6-7779-ABDEC7CAE4F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "解决方案项目", "解决方案项目", "{ADD5C206-EC45-46A7-99FF-DEAD5C71C7AF}"
+	ProjectSection(SolutionItems) = preProject
+		InfoBoard_MainSrc.vsd = InfoBoard_MainSrc.vsd
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7C2BA0A-CB79-87F6-7779-ABDEC7CAE4F7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D7C2BA0A-CB79-87F6-7779-ABDEC7CAE4F7}.Debug|Win32.Build.0 = Debug|Win32
+		{D7C2BA0A-CB79-87F6-7779-ABDEC7CAE4F7}.Release|Win32.ActiveCfg = Release|Win32
+		{D7C2BA0A-CB79-87F6-7779-ABDEC7CAE4F7}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

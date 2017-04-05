@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/Ico/MyIco">
+        <file>_Resource/Ico/apple.ico</file>
+        <file>_Resource/Ico/clap v2.ico</file>
+        <file>_Resource/Ico/loupe.ico</file>
+        <file>_Resource/Ico/opt dossiers.ico</file>
+        <file>_Resource/Ico/png-0003.png</file>
+        <file>_Resource/Ico/png-0005.png</file>
+        <file>_Resource/Ico/png-0007.png</file>
+        <file>_Resource/Ico/png-0011.png</file>
+        <file>_Resource/Ico/png-0016.png</file>
+        <file>_Resource/Ico/png-0023.png</file>
+        <file>_Resource/Ico/png-0034.png</file>
+        <file>_Resource/Ico/png-0036.png</file>
+        <file>_Resource/Ico/png-0044.png</file>
+        <file>_Resource/Ico/png-0048.png</file>
+        <file>_Resource/Ico/png-0054.png</file>
+        <file>_Resource/Ico/png-0063.png</file>
+        <file>_Resource/Ico/png-0065.png</file>
+        <file>_Resource/Ico/png-0084.png</file>
+        <file>_Resource/Ico/png-0089.png</file>
+        <file>_Resource/Ico/png-0090.png</file>
+        <file>_Resource/Ico/png-0094.png</file>
+        <file>_Resource/Ico/png-0095.png</file>
+        <file>_Resource/Ico/png-0652.png</file>
+        <file>_Resource/Ico/png-0657.png</file>
+        <file>_Resource/Ico/steam.ico</file>
+    </qresource>
+    <qresource prefix="/Pic/MyPic"/>
+</RCC>

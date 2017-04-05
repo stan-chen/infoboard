@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_Machine">
+      <UniqueIdentifier>{920496dc-9b71-4c8e-8ff9-03812e3285a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Port">
+      <UniqueIdentifier>{5586dda0-4e74-411a-9433-419797e3e51c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Machine\cpp">
+      <UniqueIdentifier>{d0b2f5a1-0ef2-4bfd-88ed-de7e781bf529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Machine\h">
+      <UniqueIdentifier>{94aba97e-cafe-4f0d-9139-a09e9cefef2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Thread">
+      <UniqueIdentifier>{5491de9b-31d2-4329-86f1-d48acda23e35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Port\h">
+      <UniqueIdentifier>{b4d0f91c-8174-4f6d-bf97-e9f711f03a9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Port\cpp">
+      <UniqueIdentifier>{9ce4a5b5-7fd8-4ce7-8d61-da2556e58a87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Thread\h">
+      <UniqueIdentifier>{c7d4b2a7-72b5-44b7-bede-128e62e6cd35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Thread\cpp">
+      <UniqueIdentifier>{53eba430-69af-4cff-863d-178e1f75712d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_MainHeader">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="_MainSrc">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CxGlobalVariable.cpp">
+      <Filter>_MainSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="CxProtocolHandle.cpp">
+      <Filter>_MainSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoBoard_MainSrc.cpp">
+      <Filter>_MainSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>_MainSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="cxmachinecom\CxComBuilder.cpp">
+      <Filter>_Machine\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="cxmachinecom\CxComScene.cpp">
+      <Filter>_Machine\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="cxmachinecom\CxComDetect.cpp">
+      <Filter>_Machine\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="cxmachinecom\CxComExport.cpp">
+      <Filter>_Machine\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="cxmachinecom\CxComImport.cpp">
+      <Filter>_Machine\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="cxmachinecom\CxComPlay.cpp">
+      <Filter>_Machine\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="cxport\CxTcpClient.cpp">
+      <Filter>_Port\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="cxport\CxTcpService.cpp">
+      <Filter>_Port\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="cxport\CxSerialPort.cpp">
+      <Filter>_Port\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="cxport\CxIoService.cpp">
+      <Filter>_Port\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="cxmachinecom\CxMachine.cpp">
+      <Filter>_Machine\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="CxExplainThread.cpp">
+      <Filter>_Thread\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="CxRevThread.cpp">
+      <Filter>_Thread\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="CxTransaction.cpp">
+      <Filter>_MainSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="CxCommandHandle.cpp">
+      <Filter>_MainSrc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CxGlobalVariable.h">
+      <Filter>_MainHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="CxProtocolHandle.h">
+      <Filter>_MainHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="CxTransaction.h">
+      <Filter>_MainHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="CxType.h">
+      <Filter>_MainHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>_MainHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>_MainHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="cxmachinecom\CxComBuilder.hpp">
+      <Filter>_Machine\h</Filter>
+    </ClInclude>
+    <ClInclude Include="cxmachinecom\CxComTime.hpp">
+      <Filter>_Machine\h</Filter>
+    </ClInclude>
+    <ClInclude Include="cxmachinecom\CxComDef.h">
+      <Filter>_Machine\h</Filter>
+    </ClInclude>
+    <ClInclude Include="cxmachinecom\CxComDetect.hpp">
+      <Filter>_Machine\h</Filter>
+    </ClInclude>
+    <ClInclude Include="cxmachinecom\CxComExport.hpp">
+      <Filter>_Machine\h</Filter>
+    </ClInclude>
+    <ClInclude Include="cxmachinecom\CxComImport.hpp">
+      <Filter>_Machine\h</Filter>
+    </ClInclude>
+    <ClInclude Include="cxmachinecom\CxComPlay.hpp">
+      <Filter>_Machine\h</Filter>
+    </ClInclude>
+    <ClInclude Include="cxmachinecom\CxComScene.hpp">
+      <Filter>_Machine\h</Filter>
+    </ClInclude>
+    <ClInclude Include="cxmachinecom\CxComStorage.hpp">
+      <Filter>_Machine\h</Filter>
+    </ClInclude>
+    <ClInclude Include="cxport\CxBuffer.hpp">
+      <Filter>_Port\h</Filter>
+    </ClInclude>
+    <ClInclude Include="cxport\CxClientList.hpp">
+      <Filter>_Port\h</Filter>
+    </ClInclude>
+    <ClInclude Include="cxport\CxIoSevice.h">
+      <Filter>_Port\h</Filter>
+    </ClInclude>
+    <ClInclude Include="cxport\CxTcp.h">
+      <Filter>_Port\h</Filter>
+    </ClInclude>
+    <ClInclude Include="cxport\CxSerialPort.h">
+      <Filter>_Port\h</Filter>
+    </ClInclude>
+    <ClInclude Include="cxport\CxTcpClient.h">
+      <Filter>_Port\h</Filter>
+    </ClInclude>
+    <ClInclude Include="cxport\CxTcpService.h">
+      <Filter>_Port\h</Filter>
+    </ClInclude>
+    <ClInclude Include="cxmachinecom\CxMachine.hpp">
+      <Filter>_Machine\h</Filter>
+    </ClInclude>
+    <ClInclude Include="CxExplainThread.h">
+      <Filter>_Thread\h</Filter>
+    </ClInclude>
+    <ClInclude Include="CxThread.hpp">
+      <Filter>_Thread\h</Filter>
+    </ClInclude>
+    <ClInclude Include="CxRevThread.h">
+      <Filter>_Thread\h</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
